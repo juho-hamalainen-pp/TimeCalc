@@ -2029,9 +2029,6 @@ class SheetTimesComparisonUI:
                 fig6, ax6 = plt.subplots(figsize=(14, 6))
                 figures.append(fig6)
                 chart_names.append("6_waterfall")
-                fig7, ax7 = plt.subplots(figsize=(14, 7))
-                figures.append(fig7)
-                chart_names.append("7_waterfall")
                 
                 # Calculate individual differences for waterfall
                 waterfall_values = []
